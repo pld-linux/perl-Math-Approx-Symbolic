@@ -17,7 +17,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	c9af92c005543fd4da89d88bd5a012ec
 BuildRequires:	perl-Math-Approx >= 0.200
 BuildRequires:	perl-Math-Symbolic >= 0.123
-%if %{with_tests}
+%if %{with tests}
 BuildRequires:	perl(Test::More)
 %endif
 BuildRequires:	perl-devel >= 5.8.0
