@@ -11,7 +11,7 @@ Name:		perl-Math-Approx-Symbolic
 Version:	0.100
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c9af92c005543fd4da89d88bd5a012ec
