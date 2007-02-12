@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Approx-Symbolic
 Summary:	Math::Approx::Symbolic - symbolic representation of interpolated polynomials
-Summary(pl):	Math::Approx::Symbolic - symboliczna reprezentacja interpolowanych wielomianów
+Summary(pl.UTF-8):   Math::Approx::Symbolic - symboliczna reprezentacja interpolowanych wielomianÃ³w
 Name:		perl-Math-Approx-Symbolic
 Version:	0.100
 Release:	2
@@ -30,10 +30,10 @@ This module is a thin wrapper around the Math::Approx module. It
 subclasses Math::Approx and adds the "symbolic" subroutine that return
 a Math::Symbolic object representing the calculated approximation.
 
-%description -l pl
-Ten modu³ to niewielki wrapper do modu³u Math::Approx. Jest podklas±
-Math::Approx i dodaje funkcjê "symbolic", zwracaj±c± obiekt
-Math::Symbolic reprezentuj±cy obliczon± aproksymacjê.
+%description -l pl.UTF-8
+Ten moduÅ‚ to niewielki wrapper do moduÅ‚u Math::Approx. Jest podklasÄ…
+Math::Approx i dodaje funkcjÄ™ "symbolic", zwracajÄ…cÄ… obiekt
+Math::Symbolic reprezentujÄ…cy obliczonÄ… aproksymacjÄ™.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
