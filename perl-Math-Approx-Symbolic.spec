@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Approx-Symbolic
 Summary:	Math::Approx::Symbolic - symbolic representation of interpolated polynomials
-Summary(pl.UTF-8):   Math::Approx::Symbolic - symboliczna reprezentacja interpolowanych wielomianów
+Summary(pl.UTF-8):	Math::Approx::Symbolic - symboliczna reprezentacja interpolowanych wielomianów
 Name:		perl-Math-Approx-Symbolic
 Version:	0.100
 Release:	2
