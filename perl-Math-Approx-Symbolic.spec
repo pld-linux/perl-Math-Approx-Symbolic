@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	Approx-Symbolic
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Approx::Symbolic - symbolic representation of interpolated polynomials
 Summary(pl.UTF-8):	Math::Approx::Symbolic - symboliczna reprezentacja interpolowanych wielomianów
 Name:		perl-Math-Approx-Symbolic
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c9af92c005543fd4da89d88bd5a012ec
+URL:		http://search.cpan.org/dist/Math-Approx-Symbolic/
 BuildRequires:	perl-Math-Approx >= 0.200
 BuildRequires:	perl-Math-Symbolic >= 0.123
 %if %{with tests}
