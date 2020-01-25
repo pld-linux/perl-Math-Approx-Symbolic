@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	Approx-Symbolic
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Approx::Symbolic - symbolic representation of interpolated polynomials
 Summary(pl.UTF-8):	Math::Approx::Symbolic - symboliczna reprezentacja interpolowanych wielomianów
 Name:		perl-Math-Approx-Symbolic
