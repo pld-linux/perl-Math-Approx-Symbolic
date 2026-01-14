@@ -8,7 +8,7 @@ Summary:	Math::Approx::Symbolic - symbolic representation of interpolated polyno
 Summary(pl.UTF-8):	Math::Approx::Symbolic - symboliczna reprezentacja interpolowanych wielomianów
 Name:		perl-Math-Approx-Symbolic
 Version:	0.100
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
